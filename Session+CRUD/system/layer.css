@@ -1,0 +1,264 @@
+*{color:rgb(245, 245, 220);}
+
+h1{
+    text-decoration: none;
+    color: rgb(245, 245, 220);
+
+}
+
+hr{
+    border-color: rgb(245, 245, 220);
+    border-width: 1px;
+}
+nav{
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%; /* Full width */
+    background-color: rgb(16, 44, 87); /* Background color */
+    color: rgb(245, 245, 220);
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000; /* Keeps it above other content */
+}
+
+.navbar{
+    position: fixed; /* Fixes the navbar at the top */
+    top: 25px;
+    left: 15px;
+
+}
+
+.header{
+    font-size: 30px;
+    font-weight: bold; 
+    margin-right: 10px;
+}
+
+nav t1 l1 {
+    display: inline-block;
+}
+
+nav t1 l1 a{
+    text-decoration: none;
+    color: rgb(245, 245, 220);
+    margin-left: 5px;
+}
+
+nav t2 l1 {
+    display: inline-block;
+    position:absolute;
+    right: 50px;
+    top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav t2 l1 a{
+    text-decoration: none;
+    color: rgb(245, 245, 220);
+
+}
+
+body{
+    background-color: rgb(22, 121, 171);
+
+}
+
+.input{
+    background-color: rgb(22, 121, 171);
+    padding: 2%;
+    border: solid;
+    border-color: rgb(245, 245, 220);
+    border-radius: 10px;
+    width: 100%;
+    
+}
+
+.mainpagecontainer{
+    height: 100%;
+    margin-top: 15%;
+    display: Grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mpcontaineritem{
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.buttonmain1{
+    display: flex;
+}
+
+.buttonm1{
+    width: 500px;
+    padding: 2%;
+    background-color: rgb(22, 121, 171);
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: solid;
+    border-color:rgb(245, 245, 220);
+}
+
+.buttonnm3{
+    width: 500px;
+    padding: 2%;
+    background-color: rgb(22, 121, 171);
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(245, 245, 220);
+}
+
+.buttonm2{
+    width: 1020px;
+    padding: 2%;
+    background-color: rgb(22, 121, 171);
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(245, 245, 220);
+}
+
+.kiri{margin-top: 0px;
+    margin-right: 25px;
+    width: 600px;
+    height: 500px;
+    align-items: flex-start; 
+    justify-content: center; 
+    display: flex;
+    text-align: center;
+}
+
+.kanan{
+    margin-top: 0px;
+    margin-left: 25px;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    align-items: flex-start;
+    
+}
+
+.content{display: flex;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    margin-top: 45px;
+    width: 100%;
+
+    border-collapse: collapse;
+    border-bottom: 1px solid rgb(245, 245, 220);
+}
+
+
+.input2{   
+    background-color: rgb(22, 121, 171);
+    padding: 2%;
+    border: solid;
+    border-color: rgb(245, 245, 220);
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;}
+
+p{
+    font-size: 15px;
+    font-weight: bold; 
+}
+
+a1 {
+    font-size: 40px;
+    color: rgb(245, 245, 220);
+    font-weight: bold; 
+
+}
+
+a2 {
+    font-size: 17px;
+    color: rgb(245, 245, 220);
+    font-weight: bold; 
+}
+
+
+hr {
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(245, 245, 220);
+    margin: 10px 10px 10px 10px; /* Space above and below the hr */
+}
+
+.data{margin-top: 40px;}
+
+.submit{
+    background-color: rgb(22, 121, 171);
+    padding: 2%;
+    border: solid;
+    border-color: rgb(245, 245, 220);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.waktu{
+    text-align: center;
+    border: solid;
+    border-color: rgb(245, 245, 220);
+    border-radius: 10px;
+    background-color: rgb(22, 121, 171);
+    width: 150px;
+}
+
+.isikanan{
+    text-align: left;
+    display: grid;
+    place-items: left ;
+}
+
+.input3{
+    background-color: rgb(22, 121, 171);
+    padding: 2%;
+    border: solid;
+    border-color: rgb(245, 245, 220);
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+.submit2{background-color: rgb(22, 121, 171);
+    padding: 2%;
+    border: solid;
+    border-color: rgb(245, 245, 220);
+    border-radius: 10px;
+    width: 45%;
+    margin-right:5%;}
+
+.reset2{background-color: rgb(22, 121, 171);
+        padding: 2%;
+        border: solid;
+        border-color: rgb(245, 245, 220);
+        border-radius: 10px;
+        width: 45%;
+        margin-left:5%;}
+
+.isikanan2{
+        text-align: left;
+        display: flex;
+        place-items: left ;
+}
+
+.fix{text-align: center;}
+
